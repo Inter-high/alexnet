@@ -1,0 +1,12 @@
+seed: 42
+data:
+  data_dir: "./data"
+  batch_size: 128
+  test_batch_size: 32
+  num_workers: 6
+model:
+  num_classes: 10
+train:
+  epochs: 100
+  valid_interval: 10
+  lr: 0.01
